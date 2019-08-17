@@ -1,0 +1,24 @@
+Replay Organiser
+
+General use involves stashing all replays except for a particular replay/series being looked at.
+Stashing replays moves them into the "Stash" subfolder and hides them from the in-game replays view.
+
+
+
+The "Stash" and "Unstash" buttons affect the selected rows. 
+Multiple rows can be selected by dragging, or by selecting while holding CTRL or SHIFT like in other applications.
+
+Replays can be stashed/unstashed individually by clicking on the checkbox for the relevant rows.
+
+
+
+Mouseover items for tooltips to show full texts. 
+
+Hovering over the Goals column displays the goalscorers for that particular game, which may help for cases where no players are shown.
+	E.g. when players leave the lobby before the match finishes.
+
+Hovering over the File Name column displays the full path for the replay.
+
+
+
+Uses rrrocket for parsing replay headers.
