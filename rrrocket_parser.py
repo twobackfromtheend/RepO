@@ -5,6 +5,8 @@ from typing import List, Tuple
 
 from game import Game
 
+print(subprocess.run(f"rrrocket -V", check=True, capture_output=True).stdout.decode("utf-8").strip())
+
 
 def parse_all_replays(folder: Path) -> List[Tuple[Game, Path]]:
     games = []
