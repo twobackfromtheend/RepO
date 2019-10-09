@@ -23,7 +23,7 @@ def get_splash_and_progress_bar() -> Tuple[QtWidgets.QSplashScreen, QtWidgets.QP
         QProgressBar {
             border: 1px solid black;
             height: 500px;
-            text-align: top;
+            text-align: center;
             padding: 1px;
             border-radius: 7px;
             background: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1,
